@@ -9,7 +9,7 @@ body {
   font-family: 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(#29251c, #2c2306);
+  background: linear-gradient(#ffffff, #c3c5c6);
   color: #d9e2f1;
   min-height: 100vh;
 }
@@ -32,7 +32,7 @@ body {
   height: 4rem;
   object-fit: contain;
   border-radius: 50%;
-  border: 2px solid #ffc404;
+  border: 2px solid #161616;
 }
 
 #main-header button {
@@ -45,7 +45,7 @@ h1 {
   font-weight: 700;
   font-size: 2rem;
   margin: 0;
-  color: #ffc404;
+  color: #000000;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
 }
