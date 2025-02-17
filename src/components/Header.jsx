@@ -1,4 +1,5 @@
 import logoImg from '../../public/logo.jpg'
+import Button from './UI/Button'
 
 export default function Header (){
 
@@ -9,9 +10,10 @@ export default function Header (){
                 <h1>MealMate </h1>
             </div>
             <nav>
-                <button>
+                
+                <Button textOnly>
                     Cart (0)
-                </button>
+                </Button>
             </nav>
         </header>
     )
