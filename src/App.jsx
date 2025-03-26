@@ -5,13 +5,15 @@ import { CartContextProvider } from "./store/CartContext";
 import { UserProgressContextProvider } from "./store/UserProgressContext";
 function App() {
   return (
-    <UserProgressContextProvider>
+    
       <CartContextProvider>
+      <UserProgressContextProvider>
       <Header/>
       <Meals/>
       <Cart/>
+      </UserProgressContextProvider>
     </CartContextProvider>
-    </UserProgressContextProvider>
+    
     
   );
 }

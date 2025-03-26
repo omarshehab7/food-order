@@ -8,6 +8,7 @@ export default function MealItem ({meal}){
     function handleMealAdd(){
         cartctx.addItem(meal)
     }
+    
     return (
         <li className="meal-item" key={meal.id}>
             <article>
@@ -24,10 +25,11 @@ export default function MealItem ({meal}){
                     </p>
                 </div>
                 <p className="meal-item-actions">
-                    <Button onCllick={handleMealAdd}>Add to Cart</Button>
+                    <Button onClick={handleMealAdd}>Add to Cart</Button>
                 </p>
             </article>
             {meal.name}
             </li>
+            
     )
 }
