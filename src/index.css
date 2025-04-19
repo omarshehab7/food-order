@@ -94,7 +94,7 @@ h1 {
 
 .meal-item-price {
   display: inline-block;
-  background-color: #dcd7d7;
+  background-color: #e8e3e3;
   color: #000000;
   font-size: 0.9rem;
   font-weight: bold;
@@ -128,12 +128,12 @@ h1 {
 }
 
 .modal-actions .text-button {
-  color: #1d1a16;
+  color: #000000;
 }
 
 .modal-actions .text-button:hover,
 .modal-actions .text-button:active {
-  color: #312c1d;
+  color: #000000;
 }
 
 .cart-total {
@@ -142,7 +142,7 @@ h1 {
   margin: 2rem 0;
   font-size: 1.15rem;
   font-weight: bold;
-  color: #46443c;
+  color: #000000;
 }
 
 .cart-item {
@@ -169,8 +169,8 @@ h1 {
   height: 1.5rem;
   border-radius: 50%;
   border: none;
-  background-color: #312c1d;
-  color: #dcd7d7;
+  background-color: #000000;
+  color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -178,8 +178,8 @@ h1 {
 
 .cart-item-actions button:hover,
 .cart-item-actions button:active {
-  background-color: #1d1a16;
-  color: #dcd7d7;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 .control {
@@ -199,7 +199,7 @@ h1 {
   font: inherit;
   padding: 0.5rem;
   border-radius: 4px;
-  border: 1px solid #ccc;
+  border: 1px solid #000000;
 }
 
 .control-row {
@@ -211,9 +211,9 @@ h1 {
 .button {
   font: inherit;
   cursor: pointer;
-  background-color: #dcd7d7;
+  background-color: #ffffff;
   border: 1px solid #dcd7d7;
-  color: #1f1a09;
+  color: #000000;
   padding: 0.5rem 1.5rem;
   border-radius: 4px;
 }
@@ -222,7 +222,7 @@ h1 {
 .button:active {
   background-color: #e8e3e3;
   border-color: #e8e3e3;
-  color: #1f1a09;
+  color: #000000;
 }
 
 .text-button {
@@ -230,7 +230,7 @@ h1 {
   cursor: pointer;
   background-color: transparent;
   border: none;
-  color: #1e1e1e;
+  color: #000000;
 }
 
 .text-button:hover,
@@ -239,7 +239,7 @@ h1 {
 }
 
 .modal {
-  background-color: #e4ddd4;
+  background-color: #ffffff;
   border-radius: 6px;
   border: none;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);

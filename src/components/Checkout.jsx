@@ -33,7 +33,7 @@ export default function Checkout(){
     function handleSubmit(event){
         event.preventDefault()
         const fd = new FormData(event.target) 
-        const customerData = Object.fromEntries(fd.entries) 
+        const customerData = Object.fromEntries(fd.entries()) 
         
         sendRequest(
             JSON.stringify({
@@ -57,13 +57,13 @@ export default function Checkout(){
     }
 
     if (data && !error){
-        return <Moddal open={UserProgressContext.progress === 'checkout'} onClose={handleFinish}>
+        return <Modal open={UserProgressContext.progress === 'checkout'} onClose={handleFinish}>
                 <h2>Success!</h2>
                 <p>Your order was submitted successfully.</p>
                 <p className="modal-actions">
                     <Button onClick={handleFinish}>Okay</Button>
                 </p>
-        </Moddal>
+        </Modal>
     }
     
     return (
